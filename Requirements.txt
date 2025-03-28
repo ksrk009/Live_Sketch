@@ -1,0 +1,3 @@
+Python 3.6+
+A working webcam
+Compatible OS (tested on macOS; may require adjustments for Windows/Linux)
