@@ -52,4 +52,5 @@ Uses cv2.VideoCapture(0) to access the webcam feed.
 ### Display : 
 Shows the live sketch and original feed using cv2.imshow().
 
-### Exit : Releases the camera and closes windows when 'q' is pressed.
+### Exit : 
+Releases the camera and closes windows when 'q' is pressed.
