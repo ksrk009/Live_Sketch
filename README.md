@@ -6,27 +6,36 @@ This project is a real-time sketch generator that transforms live video feed fro
 
 ## Features
  
-### ** Real-Time Processing ** : Converts live webcam feed into a sketch instantly.
+### Real-Time Processing : 
+Converts live webcam feed into a sketch instantly.
 
-### Custom Image Processing Pipeline : Includes sharpening with a custom kernel, grayscale conversion, and Gaussian blur for a smooth sketch effect.
+### Custom Image Processing Pipeline : 
+Includes sharpening with a custom kernel, grayscale conversion, and Gaussian blur for a smooth sketch effect.
 
-### Dual Display : Shows both the original video feed and the sketch side-by-side.
+### Dual Display : 
+Shows both the original video feed and the sketch side-by-side.
 
-### Interactive Exit : Press 'q' to stop the application gracefully.
+### Interactive Exit : 
+Press 'q' to stop the application gracefully.
 
 ## Technologies Used
 
-### Python : Core programming language.
+### Python : 
+Core programming language.
 
-### OpenCV : For capturing video and applying image processing techniques.
+### OpenCV : 
+For capturing video and applying image processing techniques.
 
-### NumPy : For efficient manipulation of image arrays.
+### NumPy : 
+For efficient manipulation of image arrays.
 
-### Matplotlib : Imported for potential visualization (optional extension).
+### Matplotlib : 
+Imported for potential visualization (optional extension).
 
 ## How It Works
 
-### Video Capture : Uses cv2.VideoCapture(0) to access the webcam feed.
+### Video Capture : 
+Uses cv2.VideoCapture(0) to access the webcam feed.
 
 ### Frame Processing :
 
@@ -40,6 +49,7 @@ This project is a real-time sketch generator that transforms live video feed fro
 
 - Combines the grayscale and blurred images to produce the final sketch.
 
-### Display : Shows the live sketch and original feed using cv2.imshow().
+### Display : 
+Shows the live sketch and original feed using cv2.imshow().
 
 ### Exit : Releases the camera and closes windows when 'q' is pressed.
