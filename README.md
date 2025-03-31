@@ -6,7 +6,7 @@ This project is a real-time sketch generator that transforms live video feed fro
 
 ## Features
  
-### Real-Time Processing: Converts live webcam feed into a sketch instantly.
+### ** Real-Time Processing ** : Converts live webcam feed into a sketch instantly.
 
 ### Custom Image Processing Pipeline : Includes sharpening with a custom kernel, grayscale conversion, and Gaussian blur for a smooth sketch effect.
 
